@@ -10,6 +10,8 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
+	.main-nav li{background:none !important;}
+	
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
 }	
@@ -36,6 +38,8 @@
 	
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
+	.main-nav li{background:none !important;}
+		
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 	
