@@ -480,7 +480,8 @@ border: 2px solid #fff;
 }
 
 .c-logo-part{
-	background:#7cc576;
+	/*background:#7cc576;*/
+	background:#1924a5;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }

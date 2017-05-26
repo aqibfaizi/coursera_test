@@ -113,8 +113,8 @@ a{text-decoration:none;}
 
 header{background:#0d5c9c; padding:0}
 .header{background:#0d5c9c; padding:0}
-.midHeader{background:url(../images/header-bg2.jpg) repeat-x;  display:block; padding:15px 0px 15px 0px;}
-.bottomHeader{display:block; background: url(../images/banner-bg1.jpg) repeat-x #0d5d9d;}
+/*.midHeader{background:url(../images/header-bg2.jpg) repeat-x;  display:block; padding:15px 0px 15px 0px;}*/
+/*.bottomHeader{display:block; background: url(../images/banner-bg1.jpg) repeat-x #0d5d9d;}*/
 .bottomHeader .container img.rsize{ width:100%}
 .bottomHeader .container li img.banner{height: 21%!important; width:100%}
 .news .container {background:#fcfcfc; border-top:2px solid #eeeeee; padding-top:1.8%; padding-bottom:1.8%;}

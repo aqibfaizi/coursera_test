@@ -162,7 +162,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
   border: 0;
   }
   
-.bottomHeader{display:block; background: url(../images/banner-bg1.jpg) repeat-x #0d5d9d;}
+<!--bottomHeader{display:block; background: url(../images/banner-bg1.jpg) repeat-x #0d5d9d;}-->
 
 .image {
     position: relative;
@@ -179,8 +179,15 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-</style>
 
+.container-fluid {
+            padding-right:0;
+            padding-left:0;
+            margin-right:-15px;
+            margin-left:-15px;
+			
+         }
+</style>
 
 
 </head>
@@ -215,10 +222,10 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 </nav><!--main-nav-end-->
 
 <section class="bottomHeader" id="header">
-		<div class="container nopadding">
+		<div class="container-fluid">
 					<div class="col-xs-12 nopadding">
 <div class="callbacks_container" >
-	<ul class="rslides " id="slider4">
+	<ul class="rslides" id="slider4">
 
 			<li><img src="gallary/2451.jpg" class="img-responsive " /></li>			
 				
@@ -237,7 +244,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 			<li><img src="gallary/9498.jpg" class="img-responsive " /></li>			
 				
 			<li><img src="gallary/9069.jpg" class="img-responsive " /></li>			
-							</ul>
+	</ul>
 		</div>
 		
 		</div>
@@ -360,8 +367,8 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
     <div class="portfolioContainer wow fadeInUp delay-04s">
             	<div class=" Portfolio-box printdesign">
                 	<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>	
-                	<h3>Foto Album</h3>
-                    <p>Print Design</p>
+                	<h3>Bersa Sports</h3>
+                    <p>Sport Products Manufacturer</p>
                 </div>
                 <div class="Portfolio-box webdesign">
                 	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>	
